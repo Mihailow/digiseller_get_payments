@@ -3,10 +3,10 @@ import json
 import psycopg2
 import psycopg2.extras
 
-DB_HOST = "109.172.89.152"
+DB_HOST = "localhost"
 DB_NAME = "digiseller"
 DB_USER = "playhaslimits"
-DB_PASS = "kjdsghfkjsf83457943.fsh=2342safaskfasjf"
+DB_PASS = "localhost"
 
 
 async def postgres_do_query(query: str, params: object) -> object:
