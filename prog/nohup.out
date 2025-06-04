@@ -1,0 +1,48 @@
+ * Serving Flask app 'for_verif'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://109.172.89.102:8080
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 406-083-933
+127.0.0.1 - - [02/Nov/2024 14:59:11] "POST /pay HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2024 14:59:11] "GET /payment?invoice_id=18580&seller_id=1064912&amount=86.96&currency=RUB&signature=DBA5D6F1D539271A2CA3BD20B89088DDD5835A6DB4D45086F8BA9F51DBB29B07 HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2024 14:59:15] "POST /pay HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2024 14:59:15] "GET /payment?invoice_id=16832&seller_id=1064912&amount=203.83&currency=&signature=C29A7C77B0966E9DCF99B351D921A8E4E312C3C2BE2E2272DCE60D22A0638040 HTTP/1.0" 200 -
+205.185.124.254 - - [02/Nov/2024 15:03:45] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2024 15:04:10] "POST /pay HTTP/1.0" 200 -
+127.0.0.1 - - [02/Nov/2024 15:04:10] "GET /payment?invoice_id=17206&seller_id=1064912&amount=541.49&currency=USD&signature=FBAE226BBAD2EC0CC5C2212168B392CAB4F0C240356027DC801E51B6959AA9D8 HTTP/1.0" 200 -
+178.215.238.18 - - [02/Nov/2024 15:05:40] code 400, message Bad request version ('}')
+178.215.238.18 - - [02/Nov/2024 15:05:40] "ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }" HTTPStatus.BAD_REQUEST -
+178.211.139.105 - - [02/Nov/2024 15:06:16] "GET / HTTP/1.1" 404 -
+114.34.15.131 - - [02/Nov/2024 15:06:36] "GET / HTTP/1.0" 404 -
+205.185.124.254 - - [02/Nov/2024 15:09:12] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+ * Serving Flask app 'for_verif'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://109.172.89.102:8080
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 590-859-711
+194.48.251.18 - - [02/Nov/2024 15:17:13] "CONNECT 45.61.137.126:7227 HTTP/1.1" 404 -
+178.211.139.105 - - [02/Nov/2024 15:19:11] "GET / HTTP/1.1" 404 -
+205.185.124.254 - - [02/Nov/2024 15:20:48] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+185.165.171.22 - - [02/Nov/2024 15:23:51] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2024 15:27:47] "GET /.env HTTP/1.0" 404 -
+205.185.124.254 - - [02/Nov/2024 15:29:04] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+178.211.139.105 - - [02/Nov/2024 15:31:37] "GET / HTTP/1.1" 404 -
+178.215.238.26 - - [02/Nov/2024 15:32:26] code 400, message Bad request version ('}')
+178.215.238.26 - - [02/Nov/2024 15:32:26] "ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }" HTTPStatus.BAD_REQUEST -
+205.185.124.254 - - [02/Nov/2024 15:35:10] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+205.185.124.254 - - [02/Nov/2024 15:37:47] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+154.213.184.18 - - [02/Nov/2024 15:38:09] "CONNECT example.com:443 HTTP/1.1" 404 -
+180.149.126.11 - - [02/Nov/2024 15:40:33] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2024 15:42:07] "GET /cgi-bin/luci/;stok=/locale HTTP/1.0" 404 -
+205.185.124.254 - - [02/Nov/2024 15:43:06] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+178.211.139.105 - - [02/Nov/2024 15:43:29] "GET / HTTP/1.1" 404 -
