@@ -3,7 +3,7 @@ import hashlib
 import hmac
 app = Flask(__name__)
 
-SECRET_KEY = 'BAB2378699074C7F968CFA3196617856'
+SECRET_KEY = ''
 
 
 def generate_signature(data_dict, secret_key):
